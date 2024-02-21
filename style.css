@@ -1,0 +1,60 @@
+
+.main-container {
+    width: 40%;
+    min-width: 400px;
+    max-width: 400px;
+    height: 750px;
+    margin: auto;
+    border: 10px solid rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29);
+    border-radius: 50px;
+}
+
+
+.btn {
+    width: 27.5%;
+    height: 110px;
+    background-color: rgb(129, 129, 129);
+    font-size: 4rem;
+    padding: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
+
+.btn-compute {
+    width: 27.5%;
+    height: 110px;
+    background-color: rgb(255, 187, 0);
+    font-size: 4rem;
+    padding: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
+
+.btn-clear {
+    margin: 5px;
+    width: 85%;
+    height: 75px;
+    background-color: rgb(255, 187, 0);
+    font-size: 2.25rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.answer {
+    color: white;
+    padding: 1rem;
+    font-size: 4.5rem;
+    text-align: right;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

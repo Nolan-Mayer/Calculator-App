@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="Javascript" src="main.js"></script>
 </head>
 <body>
-    <h1>My calculator app :D</h1>
+    <h1>Calculator App Nolan Mayer</h1>
+    <h2>HTML, CSS, Javascript</h2>
+
+    <div class="main-container">
+        <div class="output-container">
+            <div class="answer" id="output">0</div>
+        </div>
+        <div class="input-container">
+            <button class="btn" id="1" onclick="addNumber(1)">1</button>
+            <button class="btn" id="2" onclick="addNumber(2)">2</button>
+            <button class="btn-compute" id="/">/</button>
+            <button class="btn" id="3" onclick="addNumber(3)">3</button>
+            <button class="btn" id="4" onclick="addNumber(4)">4</button>
+            <button class="btn-compute" id="*">*</button>
+            <button class="btn" id="5" onclick="addNumber(5)">5</button>
+            <button class="btn" id="6" onclick="addNumber(6)">6</button>
+            <button class="btn-compute" id="-">-</button>
+            <button class="btn" id="7" onclick="addNumber(7)">7</button>
+            <button class="btn" id="8" onclick="addNumber(8)">8</button>
+            <button class="btn-compute" id="+">+</button>
+            <button class="btn" id="9" onclick="addNumber(9)">9</button>
+            <button class="btn" id="0" onclick="addNumber(0)">0</button>
+            <button class="btn-compute" id="=">=</button>
+            <button class="btn-clear" id="Clear">Clear</button>
+        </div>
+    </div>
 </body>
 </html>
